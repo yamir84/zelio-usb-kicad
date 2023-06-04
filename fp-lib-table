@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LibraryLogo")(type "KiCad")(uri "${KIPRJMOD}/LibraryLogo.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,43 @@
+(footprint "zelio" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 48b82173-bf91-43c9-a5fe-0093b7c2a867)
+  )
+  (fp_text value "zelio" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 134cce0e-e5b7-424f-87b6-d6ae7fa409bd)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 912ff3d1-4171-4b78-8ddb-58c2881ced85)
+  )
+  (fp_line (start 0 -19) (end 31.99995 -19)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 77fe1ef8-c7f6-4bfa-825d-957d665902a8))
+  (fp_line (start 0 0.000021) (end 0 -19)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 6d35ae8f-c8e5-4a38-b5d6-b6f20f2b2f09))
+  (fp_line (start 31.99995 -19) (end 31.99995 -18)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 982ef848-ebae-41e4-8ca4-906c8365a8d4))
+  (fp_line (start 31.99995 -18) (end 37.99995 -18)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp d7e57933-9c63-4a98-9e56-8f27371881ba))
+  (fp_line (start 31.99995 -6.99998) (end 31.99995 0.000021)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 78b358c3-e49c-4371-8b72-e5a301c20b3a))
+  (fp_line (start 31.99995 0.000021) (end 0 0.000021)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp b222e8d6-b32f-419d-87cf-569b1fca01a0))
+  (fp_line (start 37.99995 -18) (end 37.99995 -6.99998)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp e38e3534-fcb8-429b-a472-1a7dc09dab78))
+  (fp_line (start 37.99995 -6.99998) (end 31.99995 -6.99998)
+    (stroke (width 0.2) (type solid)) (layer "Edge.Cuts") (tstamp 6389e5e0-0094-4927-899c-81f1f818e680))
+  (group "" (id 0bbe48d6-ec8c-4008-b6cd-929c0d44da10)
+    (members
+      6389e5e0-0094-4927-899c-81f1f818e680
+      6d35ae8f-c8e5-4a38-b5d6-b6f20f2b2f09
+      77fe1ef8-c7f6-4bfa-825d-957d665902a8
+      78b358c3-e49c-4371-8b72-e5a301c20b3a
+      982ef848-ebae-41e4-8ca4-906c8365a8d4
+      b222e8d6-b32f-419d-87cf-569b1fca01a0
+      d7e57933-9c63-4a98-9e56-8f27371881ba
+      e38e3534-fcb8-429b-a472-1a7dc09dab78
+    )
+  )
+)
